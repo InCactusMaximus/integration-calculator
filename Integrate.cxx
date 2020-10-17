@@ -76,7 +76,7 @@ Trapezoid* SetTraps(double **pArr, int num)
 	return arr;
 }
 
-double SumArea(Trapezoid *arr, int num)
+double SumArea(Trapezoid *arr, int num)	// Sums up the area of each trapezoid in the array
 {
 	double totalArea = 0;
     double currentArea;
