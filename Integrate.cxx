@@ -62,7 +62,7 @@ double** SetPoints(int start, int end, int num)
 	return arr;
 }
 
-Trapezoid* SetTraps(double **pArr, int num)
+Trapezoid* SetTraps(double **pArr, int num) // Sets the points for each trapezoid using the point array
 {
 	Trapezoid* arr;
 	arr = new Trapezoid[num];
