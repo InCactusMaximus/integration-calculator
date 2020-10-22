@@ -97,8 +97,8 @@ int main()
 {
 	int trapNum, startPoint, endPoint;
 	double result;
-	Trapezoid *trapArr;
-	double **pointArr;
+	Trapezoid *trapArr;	// Array that stores all the trapezoids used
+	double **pointArr; // 2d array used for x and y values for each point
 
 	GetInput(startPoint, endPoint, trapNum);
 
